@@ -1,0 +1,70 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.timer_progressbar {
+    display: flex;
+
+    font-size: 18px;
+}
+
+.timer_progressbar__label {
+    padding-right: 10px;
+}
+
+.timer_progressbar__progress {
+    width: 170px;
+    height: 20px;
+}
+
+.timer_slider {
+    display: flex;
+    
+    margin-top: 15px;
+
+    font-size: 18px;
+}
+
+.timer_slider__input {
+    width: 200px;
+}
+
+.timer_progressbar__span-time {
+    display: flex;
+
+    padding-top: 10px;
+
+    font-size: 18px;
+}
+
+.timer_slider__label {
+    padding-right: 10px;
+}
+
+.timer__button {
+    width: 280px;
+    height: 25px;
+    margin-top: 15px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+}

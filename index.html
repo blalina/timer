@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Timer</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div class="timer">
+            <div class="timer-container">
+                <div class="timer_progressbar">
+                    <label for="progressbar" class="timer_progressbar__label">Elapsed Time:</label>
+                    <progress id="progressbar" class="timer_progressbar__progress js-timer_progressbar__progress" max="100" value="0"></progress>
+                </div>
+                <span class="timer_progressbar__span-time js-timer_progressbar__span-time"></span>
+                <div class="timer_slider">
+                    <label for="slider" class="timer_slider__label">Duration:</label>
+                    <input id="slider" type="range" class="timer_slider__input js-timer_slider__input" value="0" min="0" max="60">
+                </div>
+                <button class="timer__button js-timer__button">Reset</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
