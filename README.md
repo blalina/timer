@@ -1,7 +1,5 @@
 # Timer
 
-# Description:
-
 Challenges: concurrency, competing user/signal interactions, responsiveness.
 
 ![how Timer should work](https://github.com/blalina/timer/blob/main/ScreenShots/timer.ed46b6b4.png)
